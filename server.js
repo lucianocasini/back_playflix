@@ -13,7 +13,7 @@ app.use('/api', routes);
 app.use((err, req, res, next) => {
   console.log('Error');
   console.log(err);
-  res.status(500).send('Ha ocurrido un error');
+  res.status(500).send('An error has ocurred');
 });
 
 db.sync({ force: false }).then(() => {
