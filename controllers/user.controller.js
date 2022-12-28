@@ -6,7 +6,7 @@ const {
   addFavorite,
   removeFavorite,
   getFavorites,
-} = require('../services/user');
+} = require('../services/user.service');
 const { errorTemplate } = require('../utils/validate');
 
 exports.getUsers = async (req, res, next) => {
