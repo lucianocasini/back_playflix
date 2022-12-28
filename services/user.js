@@ -1,5 +1,4 @@
 const { User, UserFavorites } = require('../models');
-const { Op } = require('sequelize');
 
 const getUsers = () => {
   return User.findAll();
@@ -38,7 +37,7 @@ const removeFavorite = async (id, userId) => {
   const removedFavorite = await UserFavorites.destroy({
     where: { id, userId },
   });
-  return removeFavorite;
+  return removedFavorite;
 };
 
 module.exports = {
