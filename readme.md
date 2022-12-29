@@ -1,11 +1,9 @@
 # Playflix
 
 Playflix es una aplicación web que permite buscar series y películas, ver sus detalles y también agregarla a favoritos si tienes la sesión iniciada.
-El desarrollo fue a modo de práctica y me llevo 5 días para realizarlo.
+El desarrollo fue a modo de práctica y seguramente en un futuro retomaré el proyecto para mejorar el código y añadir nuevas funcionalidades.
 
 Actualmente cuenta con las siguientes características: Buscador, Listado de series y películas, Botón y listado de favoritos, registro e inicio de sesión de usuarios.
-
-En un futuro retomaré el proyecto para mejorar el código y añadir nuevas funcionalidades.
 
 Fue desarrollada con las siguientes tecnologías:
 
@@ -14,8 +12,15 @@ Fue desarrollada con las siguientes tecnologías:
 - Sass
 - NodeJS
 - Express
+- Express Validator
+- JSON Web token
 - PostgreSQL
 - Sequelize
+
+### Repositorios
+
+<a href="https://github.com/lucianocasini/front_playflix/">Repo Frontend</a> <br />
+<a href="https://github.com/lucianocasini/back_playflix/">Repo Backend</a>
 
 ## Capturas:
 
