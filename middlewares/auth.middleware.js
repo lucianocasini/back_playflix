@@ -1,4 +1,4 @@
-const { validateToken } = require("../config/auth");
+const { validateToken } = require('../utils/auth');
 
 function validateUser(req, res, next) {
   const token = req.cookies.token;
